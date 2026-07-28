@@ -1,0 +1,9 @@
+Overview of the Sri Lankan IT Job Market for New Graduates
+
+The Sri Lankan IT/BPM sector is one of the country's largest export industries, with strong demand for software engineers, QA engineers, and business analysts, particularly from companies serving UK, US, and Australian clients.
+
+Common technology stacks requested in local job postings include MERN/MEAN stack, Java/Spring Boot, .NET, and increasingly React Native/Flutter for mobile. Many mid-size local companies also request SQL and basic DevOps familiarity (Docker, CI/CD) even for junior roles.
+
+Entry-level interviews at Sri Lankan IT companies commonly include: a technical screening call, a take-home coding assignment or live coding round, and a final HR/culture-fit round. Behavioral questions frequently probe teamwork under deadline pressure, given the prevalence of agile delivery to overseas clients across time zones.
+
+Salary expectations for fresh graduates vary significantly between BOI-registered exporters, local product companies, and small agencies; researching Glassdoor/LinkedIn ranges for the specific company type before an offer negotiation is recommended.

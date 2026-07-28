@@ -1,0 +1,9 @@
+CV Writing Guide for Sri Lankan IT Undergraduates
+
+1. Keep it to 1-2 pages. Recruiters in Sri Lanka's IT sector typically spend under 30 seconds on a first pass.
+2. Lead with a strong Projects section for undergraduates, since work experience is often limited. Consolidate multi-repository projects (frontend/backend/admin panels) into a single unified entry describing the whole system, tech stack, and your specific contribution.
+3. Quantify impact where possible: "Reduced page load time by 40%" is stronger than "Improved performance."
+4. List technical skills grouped by category (Languages, Frameworks, Databases, Tools) rather than a flat list.
+5. Include a GitHub link and make sure pinned repositories have clear READMEs, since many local recruiters check GitHub activity.
+6. Tailor the CV per application: mirror keywords from the job description (e.g. "React", "Spring Boot", "REST API") since some companies use keyword screening.
+7. Avoid generic objective statements; replace with a 2-3 line professional summary tied to the specific role.

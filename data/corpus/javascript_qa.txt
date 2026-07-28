@@ -1,0 +1,11 @@
+Q: Explain the difference between var, let, and const.
+A: var is function-scoped and hoisted with an initial value of undefined. let and const are block-scoped; let allows reassignment, const does not (though object/array contents referenced by const can still be mutated).
+
+Q: What is a closure in JavaScript?
+A: A closure is a function that retains access to its lexical scope even after the outer function has returned, commonly used for data privacy and creating factory functions.
+
+Q: Explain async/await and how it relates to Promises.
+A: async/await is syntactic sugar over Promises that lets asynchronous code read like synchronous code. An async function always returns a Promise; await pauses execution until that Promise settles, and errors are caught with try/catch.
+
+Q: What is the difference between == and === in JavaScript?
+A: == performs type coercion before comparing values, which can cause unexpected results (e.g. '5' == 5 is true). === compares both value and type without coercion and is generally the safer default.
