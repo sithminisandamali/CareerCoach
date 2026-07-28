@@ -1,0 +1,11 @@
+Q: What is the purpose of middleware in Express.js?
+A: Middleware functions have access to the request, response, and next function in the request-response cycle. They can execute code, modify req/res objects, end the cycle, or call the next middleware. Common uses: logging, authentication, body parsing, error handling.
+
+Q: Explain the difference between SQL and NoSQL databases in the context of MongoDB.
+A: SQL databases use structured tables with fixed schemas and relationships enforced via foreign keys. MongoDB is a NoSQL document database storing flexible JSON-like documents (BSON), better suited for rapidly evolving schemas and horizontal scaling, at the cost of weaker built-in relational integrity.
+
+Q: How would you secure a REST API built with Node.js and Express?
+A: Use HTTPS, validate and sanitize all inputs, implement JWT-based authentication with short-lived tokens, apply rate limiting (e.g. express-rate-limit), use helmet.js for secure headers, and never expose secrets in source control (use environment variables).
+
+Q: What is the event loop in Node.js?
+A: The event loop allows Node.js to perform non-blocking I/O despite being single-threaded, by offloading operations to the system kernel or worker threads and processing callbacks/promises in phases (timers, I/O callbacks, idle, poll, check, close callbacks).

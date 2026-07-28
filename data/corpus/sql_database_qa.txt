@@ -1,0 +1,11 @@
+Q: What is database normalization and why is it used?
+A: Normalization organizes tables to reduce data redundancy and improve integrity, typically progressing through 1NF, 2NF, and 3NF by removing repeating groups, partial dependencies, and transitive dependencies.
+
+Q: Explain the difference between INNER JOIN and LEFT JOIN.
+A: INNER JOIN returns only rows with matching values in both tables. LEFT JOIN returns all rows from the left table plus matched rows from the right table, filling unmatched right-side columns with NULL.
+
+Q: What is an index and how does it improve query performance?
+A: An index is a data structure (commonly a B-tree) that allows the database to locate rows without scanning the entire table, significantly speeding up SELECT queries at the cost of slower writes and extra storage.
+
+Q: What is a transaction and what do ACID properties guarantee?
+A: A transaction is a sequence of operations treated as a single unit. ACID guarantees Atomicity (all-or-nothing), Consistency (valid state transitions), Isolation (concurrent transactions don't interfere), and Durability (committed changes survive failures).
