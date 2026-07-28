@@ -1,0 +1,9 @@
+General Career Guidance Notes for BSc (Hons) IT Undergraduates
+
+Final-year students should aim to have at least 2-3 substantial full-stack or specialized projects (e.g. one MERN/MEAN project, one mobile app, one project in a secondary stack like Spring Boot) documented with clear READMEs before applying for graduate roles.
+
+Building a portfolio site or GitHub Pages presence alongside the CV helps differentiate candidates, especially when it links to live demos of deployed projects.
+
+Networking through university career fairs, LinkedIn, and alumni referrals remains one of the highest-yield channels for securing interviews at Sri Lankan tech companies, alongside direct applications.
+
+Soft skills consistently cited by local employers as differentiators include clear written communication (important for remote/distributed teams) and the ability to explain technical decisions to non-technical stakeholders.

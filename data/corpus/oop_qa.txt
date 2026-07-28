@@ -1,0 +1,11 @@
+Q: Explain the four pillars of Object-Oriented Programming.
+A: Encapsulation (bundling data and methods, restricting direct access), Abstraction (exposing only relevant details), Inheritance (a class acquiring properties/behaviour of another), and Polymorphism (same interface, different underlying implementations, via overriding/overloading).
+
+Q: What is the difference between an abstract class and an interface?
+A: An abstract class can have both implemented and unimplemented methods and maintains state; a class can only extend one abstract class. An interface only declares method signatures (in most languages) with no implementation, and a class can implement multiple interfaces.
+
+Q: What is the SOLID principle set and why does it matter?
+A: SOLID stands for Single Responsibility, Open/Closed, Liskov Substitution, Interface Segregation, and Dependency Inversion. Following these principles produces code that is easier to maintain, test, and extend without breaking existing functionality.
+
+Q: What is composition over inheritance and why is it preferred in many modern codebases?
+A: Composition builds behaviour by combining smaller objects rather than through deep inheritance hierarchies. It reduces tight coupling, avoids fragile base class problems, and makes it easier to change behaviour at runtime.
