@@ -1,0 +1,11 @@
+Q: Tell me about a time you disagreed with a teammate. How did you handle it?
+A (guidance): Use the STAR method (Situation, Task, Action, Result). Focus on how you communicated respectfully, sought to understand their perspective, and reached a resolution that improved the outcome or the working relationship.
+
+Q: Describe a project where you had to learn a new technology quickly.
+A (guidance): Highlight your learning process (docs, small prototypes, asking for help), how you validated your understanding, and the concrete result you delivered under time pressure.
+
+Q: How do you handle tight deadlines with multiple competing priorities?
+A (guidance): Discuss prioritization frameworks (e.g. urgency/impact), communicating early with stakeholders about trade-offs, and a specific example where this approach prevented a missed deadline.
+
+Q: Why do you want to work in the IT industry in Sri Lanka specifically?
+A (guidance): Connect genuine interest (growing tech/BPO sector, remote-friendly companies, local startup ecosystem) with your specific skills and career goals rather than a generic answer.
