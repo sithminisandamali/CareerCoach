@@ -7,3 +7,4 @@ venv/
 src/rag/index.faiss
 src/rag/chunks.pkl
 .DS_Store
+
