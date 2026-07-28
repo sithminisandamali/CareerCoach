@@ -72,4 +72,4 @@ def call_openrouter(model: str, messages: list, temperature: float = 0.4, max_to
 # easy to point to in the viva.
 MODEL_ROUTER = "llama-3.1-8b-instant"          # Groq: routing/classification
 MODEL_RERANK = "llama-3.3-70b-versatile"       # Groq: retrieval re-ranking
-MODEL_DEEP = "anthropic/claude-3.5-sonnet"     # OpenRouter: critique/synthesis
+MODEL_DEEP = "meta-llama/llama-3.3-70b-instruct:free"  # OpenRouter: critique/synthesis (free tier, no credits needed)

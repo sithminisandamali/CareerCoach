@@ -84,5 +84,5 @@ with tab2:
             st.warning("Type a question first.")
 
 st.divider()
-st.caption("IT41043 Agentic AI Assignment — Horizon Campus")
+st.caption("Agentic AI Assignment")
 
