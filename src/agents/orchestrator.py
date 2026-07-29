@@ -39,7 +39,7 @@ def run_interview_flow(topic: str, user_answer: str = None) -> dict:
     return {"log": log, "interview": interview_result, "critique": critique}
 
 
-def run_orchestrator(user_message: str, user_answer: str = None) -> dict:
+def run_orchestrator(user_message: str, user_answer: str = None, cv_text: str = None) -> dict:
     category = classify_query(user_message)
     log = [{"agent": "Orchestrator", "step": "route_decision",
             "content": f"Router classified message as: {category}"}]
@@ -56,13 +56,24 @@ def run_orchestrator(user_message: str, user_answer: str = None) -> dict:
 
     candidates = retrieve(user_message, k=5)
     top_chunks = rerank(user_message, candidates, top_n=3)
-    context = "\n---\n".join(c["text"] for c in top_chunks)
+    context = "\n---\n".join(c["text"] for c in top_chunks) if top_chunks else ""
 
-    prompt = (
-        f"You are a career advisor for Sri Lankan IT undergraduates. "
-        f"Using the context below, answer the student's question helpfully "
-        f"and concretely.\n\nContext:\n{context}\n\nQuestion: {user_message}"
-    )
+    cv_section = f"\n\nStudent's CV content:\n{cv_text}\n" if cv_text else ""
+
+    if context:
+        prompt = (
+            f"You are a career advisor for Sri Lankan IT undergraduates. "
+            f"Use the context below if it's relevant, but you are not limited to it — "
+            f"answer from your own knowledge too.\n\nContext:\n{context}"
+            f"{cv_section}\n\nQuestion: {user_message}"
+        )
+    else:
+        prompt = (
+            f"You are a career advisor for Sri Lankan IT undergraduates. "
+            f"Answer the student's question helpfully and concretely, using your own knowledge."
+            f"{cv_section}\n\nQuestion: {user_message}"
+        )
+
     answer = call_openrouter(MODEL_DEEP, [{"role": "user", "content": prompt}])
     log.append({"agent": "CareerAdvisorAgent", "step": "answer", "content": answer})
 
